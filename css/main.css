@@ -1,0 +1,41 @@
+* { margin: 0px; padding: 0px; font-family: Calibri; }
+
+div.center-div { display: inline-block; }
+div.center-block { padding: 10px; border: 1px solid #000000; }
+table td { padding: 2px 5px; }
+
+/* General */
+table { border-collapse: collapse; }
+input[type="submit"] { padding: 2px 5px; }
+.margin { width: 30px; }
+
+/* Catalog */
+div.catalogitem {
+	width: 200px;
+	height: 220px;
+	border: 1px solid black;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/* Photo editor */
+div#sample-image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 1px solid #000000;
+	width: 510px;
+	height: 510px;
+	float: left;
+	overflow: hidden;
+}
+div#sample-image-options{
+	float: left;
+	width: 400px;
+}
+div#image-zoom{
+	width: 100px; height: 10px;
+}
+img#sample-image-image{
+	position: relative;
+}
